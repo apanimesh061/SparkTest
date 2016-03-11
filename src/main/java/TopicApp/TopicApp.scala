@@ -21,7 +21,7 @@ object TopicApp extends Serializable {
     val esConf = new Configuration()
     esConf.set("es.nodes","10.0.2.2")
     esConf.set("es.port","9220")
-    esConf.set("es.resource", "traackr_alt_restored/post")
+    esConf.set("es.resource", "test_index/doc_type")
     esConf.set("es.query", "?q=*:*")
     esConf.set("es.fields", "_score,_id")
 
